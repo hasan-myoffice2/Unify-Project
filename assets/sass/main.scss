@@ -259,10 +259,11 @@ nav {
 }
 // Experience Section End
 
+
+
 //Icon Card Section Start
 .icons-card-section {
   margin-top: 3rem;
-  height: 600px;
 
   .card-items-features {
     display: flex;
@@ -274,8 +275,8 @@ nav {
       text-align: center;
       padding: 1rem;
       i {
-        font-size: 40px;
-        font-weight: 100;
+        font-size: 38px;
+        font-weight: 300;
         color: #2d374b;
       }
       p {
@@ -286,4 +287,72 @@ nav {
   }
 }
 //Icon Card Section End 
+
+//Challenge Card Section Start
+.challenge-face-section {
+  margin-top: 6rem;
+  .face-card {
+    display: flex;
+    gap: 6rem;
+    img {
+      width: 546px;
+      height: 546px;
+      background-size: cover;
+      border-radius: 10px;
+    }
+  }
+
+  .text-aria {
+    margin-top: 3rem;
+    flex-grow: 1;
+    h2 {
+      font-size: 36px;
+      color: #2d374b;
+    }
+    p {
+      margin-top: 1.5rem;
+      line-height: 1.5rem;
+      color: #2d374b;
+      font-size: 16px;
+    }
+  }
+
+  .icons-text {
+    padding: 2rem 0;
+    h4 {
+      display: flex;
+      gap: 1rem;
+      padding: 0.5rem 0;
+      i {
+       font-size: 22px;
+       color: #0ABF53;
+      }
+      span {
+        padding: 0.1rem;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .button-three {
+    button {
+      padding: 18px 30px;
+      border: none;
+      background-color: transparent;
+      background-color: #0abf53;
+      border-radius: 5px;
+      color: #fff;
+      font-weight: 600;
+    }
+    button:hover {
+      background-color: #09a247;
+      color: #fff;
+      font-weight: 600;
+    }
+  }
+}
+//Challenge Card Section End
+
+// 
 
