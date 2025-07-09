@@ -12,6 +12,11 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+::selection {
+  background-color: #E6F8ED;
+  color: #0ABF53;
+}
+
 .container {
   width: 1140px;
   margin: auto;
@@ -262,9 +267,12 @@ nav {
   .card-items-features {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
     gap: 2rem;
     .card-items {
       text-align: center;
+      padding: 1rem;
       i {
         font-size: 40px;
         font-weight: 100;

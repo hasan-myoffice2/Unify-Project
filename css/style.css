@@ -12,6 +12,11 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+::selection {
+  background-color: #E6F8ED;
+  color: #0ABF53;
+}
+
 .container {
   width: 1140px;
   margin: auto;
@@ -227,10 +232,13 @@ nav .container .nav-container .button-group .btn-two:hover {
 .icons-card-section .card-items-features {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 2rem;
   gap: 2rem;
 }
 .icons-card-section .card-items-features .card-items {
   text-align: center;
+  padding: 1rem;
 }
 .icons-card-section .card-items-features .card-items i {
   font-size: 40px;
