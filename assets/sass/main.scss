@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+// Navabr Section Start
+nav {
+  .container {
+    width: 1140px;
+    margin: auto;
+
+    .nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 0;
+
+      img {
+        height: 35px;
+      }
+
+      .nav-item {
+        display: flex;
+        gap: 1rem;
+        list-style-type: none;
+        flex-grow: 1;
+        margin-left: 2rem;
+        font-size: 16px;
+      }
+
+      li {
+        padding: 16px 20px;
+      }
+
+      li:hover {
+        background-color: #ddd;
+        border-radius: 10px;
+      }
+
+      .button-group {
+        .btn-one {
+          padding: 18px 30px;
+          border-radius: 5px;
+          border: none;
+          font-size: 15px;
+          font-weight: 600;
+          color: #2d374b;
+          background-color: transparent;
+        }
+        .btn-one:hover {
+          background-color: #eaebed;
+        }
+        .btn-two {
+          padding: 18px 30px;
+          background-color: transparent;
+          background-color: #2d374b;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          font-weight: bold;
+          font-size: 15px;
+          font-weight: 700;
+        }
+        .btn-two:hover {
+          background-color: #4d5566;
+        }
+      }
+    }
+  }
+}
+// Navbar Section End
+
+// Hero Section Start
+.hero-section {
+  margin-top: 2rem;
+
+  .features-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    div {
+      width: 480px;
+    }
+  }
+
+  .left-aria {
+    padding: 2rem 0;
+
+    span {
+      color: #0abf53;
+    }
+
+    h1 {
+      font-size: 60px;
+      color: #2d374b;
+    }
+    p {
+      padding: 2rem 0;
+      color: #2d374b;
+      font-size: 20px;
+      line-height: 2rem;
+    }
+  }
+
+  .btn-group {
+    .btn-request {
+      padding: 18px 30px;
+      background-color: transparent;
+      background-color: #0abf53;
+      color: white;
+      font-weight: 700;
+      font-size: 15px;
+      border-radius: 5px;
+      outline: none;
+      border: none;
+    }
+  }
+
+  .btn-request:hover {
+    background-color: #09a247;
+  }
+
+  .btn-signup-free {
+    padding: 18px 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .btn-signup-free:hover {
+    background-color: rgba(0, 0, 0, 0.125);
+    border-radius: 5px;
+  }
+
+  .right-aria {
+    flex-grow: 1;
+    text-align: end;
+
+    .hero-section-image {
+      width: 90%;
+      height: 555px;
+      background-image: cover;
+    }
+  }
+}
+// Hero Section End
+
+//Features Card section Start
+.features-section {
+  margin-top: 6rem;
+  .features-card-items {
+    display: flex;
+    justify-content: space-between;
+
+    .card {
+      text-align: center;
+      flex-shrink: 1;
+      i {
+        font-size: 35px;
+        font-weight: 100;
+        color: #2d374b;
+      }
+      h2 {
+        margin-top: 1.3rem;
+        color: #2d374b;
+        font-size: 18px;
+      }
+      p {
+        margin-top: 0.8rem;
+        color: #2d374b;
+        font-size: 16px;
+      }
+    }
+  }
+}
+//Features Card section End
+
+// Experience Section Start
+.experience-section {
+  margin-top: 6rem;
+  .collaborate {
+    display: flex;
+    gap: 5rem;
+    .image-aria {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      .image1 {
+        width: 180px;
+        background-size: cover;
+        border-radius: 10px;
+      }
+      .image2 {
+        width: 150px;
+        background-size: cover;
+        border-radius: 10px;
+      }
+      .image3 {
+        width: 230px;
+        background-size: cover;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .text-aria {
+    margin-top: 3rem;
+    flex-grow: 1;
+    h2 {
+      font-size: 36px;
+      color: #2d374b;
+    }
+    p {
+      margin-top: 1.5rem;
+      line-height: 1.5rem;
+      color: #2d374b;
+      font-size: 16px;
+    }
+  }
+
+  .icons-text {
+    padding: 3rem 0;
+    h4 {
+      display: flex;
+      gap: 1rem;
+      padding: 0.5rem 0;
+      i {
+       font-size: 22px;
+       color: #0ABF53;
+      }
+      span {
+        padding: 0.1rem;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+  
+}
+// Experience Section End
+
+//Icon Card Section Start
+.icons-card-section {
+  margin-top: 3rem;
+  height: 600px;
+
+  .card-items-features {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    .card-items {
+      text-align: center;
+      i {
+        font-size: 40px;
+        font-weight: 100;
+        color: #2d374b;
+      }
+      p {
+        margin-top: 0.5rem;
+        line-height: 1.5rem;
+      }
+    }
+  }
+}
+//Icon Card Section End 
+

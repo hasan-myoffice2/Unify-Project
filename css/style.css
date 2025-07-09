@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+nav .container {
+  width: 1140px;
+  margin: auto;
+}
+nav .container .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+nav .container .nav-container img {
+  height: 35px;
+}
+nav .container .nav-container .nav-item {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+  flex-grow: 1;
+  margin-left: 2rem;
+  font-size: 16px;
+}
+nav .container .nav-container li {
+  padding: 16px 20px;
+}
+nav .container .nav-container li:hover {
+  background-color: #ddd;
+  border-radius: 10px;
+}
+nav .container .nav-container .button-group .btn-one {
+  padding: 18px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: #2d374b;
+  background-color: transparent;
+}
+nav .container .nav-container .button-group .btn-one:hover {
+  background-color: #eaebed;
+}
+nav .container .nav-container .button-group .btn-two {
+  padding: 18px 30px;
+  background-color: transparent;
+  background-color: #2d374b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  font-weight: 700;
+}
+nav .container .nav-container .button-group .btn-two:hover {
+  background-color: #4d5566;
+}
+
+.hero-section {
+  margin-top: 2rem;
+}
+.hero-section .features-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.hero-section .features-item div {
+  width: 480px;
+}
+.hero-section .left-aria {
+  padding: 2rem 0;
+}
+.hero-section .left-aria span {
+  color: #0abf53;
+}
+.hero-section .left-aria h1 {
+  font-size: 60px;
+  color: #2d374b;
+}
+.hero-section .left-aria p {
+  padding: 2rem 0;
+  color: #2d374b;
+  font-size: 20px;
+  line-height: 2rem;
+}
+.hero-section .btn-group .btn-request {
+  padding: 18px 30px;
+  background-color: transparent;
+  background-color: #0abf53;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.hero-section .btn-request:hover {
+  background-color: #09a247;
+}
+.hero-section .btn-signup-free {
+  padding: 18px 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+.hero-section .btn-signup-free:hover {
+  background-color: rgba(0, 0, 0, 0.125);
+  border-radius: 5px;
+}
+.hero-section .right-aria {
+  flex-grow: 1;
+  text-align: end;
+}
+.hero-section .right-aria .hero-section-image {
+  width: 90%;
+  height: 555px;
+  background-image: cover;
+}
+
+.features-section {
+  margin-top: 6rem;
+}
+.features-section .features-card-items {
+  display: flex;
+  justify-content: space-between;
+}
+.features-section .features-card-items .card {
+  text-align: center;
+  flex-shrink: 1;
+}
+.features-section .features-card-items .card i {
+  font-size: 35px;
+  font-weight: 100;
+  color: #2d374b;
+}
+.features-section .features-card-items .card h2 {
+  margin-top: 1.3rem;
+  color: #2d374b;
+  font-size: 18px;
+}
+.features-section .features-card-items .card p {
+  margin-top: 0.8rem;
+  color: #2d374b;
+  font-size: 16px;
+}
+
+.experience-section {
+  margin-top: 6rem;
+}
+.experience-section .collaborate {
+  display: flex;
+  gap: 5rem;
+}
+.experience-section .collaborate .image-aria {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.experience-section .collaborate .image-aria .image1 {
+  width: 180px;
+  background-size: cover;
+  border-radius: 10px;
+}
+.experience-section .collaborate .image-aria .image2 {
+  width: 150px;
+  background-size: cover;
+  border-radius: 10px;
+}
+.experience-section .collaborate .image-aria .image3 {
+  width: 230px;
+  background-size: cover;
+  border-radius: 10px;
+}
+.experience-section .text-aria {
+  margin-top: 3rem;
+  flex-grow: 1;
+}
+.experience-section .text-aria h2 {
+  font-size: 36px;
+  color: #2d374b;
+}
+.experience-section .text-aria p {
+  margin-top: 1.5rem;
+  line-height: 1.5rem;
+  color: #2d374b;
+  font-size: 16px;
+}
+.experience-section .icons-text {
+  padding: 3rem 0;
+}
+.experience-section .icons-text h4 {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 0;
+}
+.experience-section .icons-text h4 i {
+  font-size: 22px;
+  color: #0ABF53;
+}
+.experience-section .icons-text h4 span {
+  padding: 0.1rem;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.icons-card-section {
+  margin-top: 3rem;
+  height: 600px;
+}
+.icons-card-section .card-items-features {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+.icons-card-section .card-items-features .card-items {
+  text-align: center;
+}
+.icons-card-section .card-items-features .card-items i {
+  font-size: 40px;
+  font-weight: 100;
+  color: #2d374b;
+}
+.icons-card-section .card-items-features .card-items p {
+  margin-top: 0.5rem;
+  line-height: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */

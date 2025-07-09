@@ -1,0 +1,17 @@
+{
+  "name": "unify-webside",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch assets/sass/main.scss css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "sass": "^1.89.2"
+  }
+}
