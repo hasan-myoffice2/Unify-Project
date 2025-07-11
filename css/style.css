@@ -131,7 +131,6 @@ nav .container .nav-container .button-group .btn-two:hover {
 }
 .hero-section .right-aria {
   flex-grow: 1;
-  text-align: end;
 }
 .hero-section .right-aria .hero-section-image {
   width: 90%;
@@ -306,6 +305,156 @@ nav .container .nav-container .button-group .btn-two:hover {
   background-color: #09a247;
   color: #fff;
   font-weight: 600;
+}
+
+.all-about-speed-section {
+  margin-top: 6rem;
+}
+.all-about-speed-section .about-section {
+  display: flex;
+  gap: 3rem;
+}
+.all-about-speed-section .about-section .about-text {
+  width: 550px;
+  height: 380px;
+}
+.all-about-speed-section .about-section .about-text h2 {
+  font-size: 36px;
+  color: #2d374b;
+}
+.all-about-speed-section .about-section .about-text p {
+  font-size: 16px;
+  color: #2d374b;
+  padding: 1rem 0;
+}
+.all-about-speed-section .about-section .about-text h4 {
+  font-size: 20px;
+  padding: 2rem 0;
+  color: #2d374b;
+  font-style: italic;
+  font-weight: 400;
+}
+.all-about-speed-section .avator-image {
+  display: flex;
+  gap: 1rem;
+}
+.all-about-speed-section .avator-image h5 {
+  font-size: 16px;
+  padding: 0.3rem 0;
+  color: #2d374b;
+}
+.all-about-speed-section .avator-image span {
+  display: block;
+  font-size: 0.8125rem;
+  color: #677788;
+}
+.all-about-speed-section .image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+}
+.all-about-speed-section .right-aria {
+  width: 100%;
+  height: 380px;
+  position: relative;
+}
+.all-about-speed-section .right-aria .line:after {
+  content: "";
+  width: 2px;
+  height: 380px;
+  background-color: #EAECEF;
+  position: absolute;
+  left: 50%;
+  right: 0;
+}
+.all-about-speed-section .right-aria .two-line:after {
+  content: "";
+  width: 550px;
+  height: 2px;
+  background-color: #EAECEF;
+  position: absolute;
+  left: 14%;
+  top: 50%;
+  right: 0;
+}
+.all-about-speed-section .right-aria .four-items-box {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+}
+.all-about-speed-section .right-aria .items-box h2 {
+  font-size: 48px;
+  color: #2d374b;
+  color: #2d374b;
+}
+.all-about-speed-section .right-aria .items-box p {
+  padding: 1rem 0;
+  font-size: 16px;
+  line-height: 1.3rem;
+  color: #2d374b;
+}
+
+.title-image-section {
+  padding: 6rem 0;
+}
+.title-image-section .title-image {
+  display: flex;
+  justify-content: space-evenly;
+}
+.title-image-section .title-image img {
+  width: 100px;
+}
+
+.header-section h2 {
+  font-size: 36px;
+  text-align: center;
+  color: #2d374b;
+}
+.header-section p {
+  font-size: 16px;
+  text-align: center;
+  padding: 1rem;
+  color: #2d374b;
+}
+
+.collaborate-section {
+  padding: 2.5rem 0;
+}
+.collaborate-section .card-container .card {
+  width: 360px;
+}
+.collaborate-section .card-container .card img {
+  width: 100%;
+  border-radius: 20px;
+}
+.collaborate-section .card-container .card .text {
+  padding: 1rem 0;
+}
+.collaborate-section .card-container .card .text h2 {
+  color: #2d374b;
+}
+.collaborate-section .card-container .card .text p {
+  padding: 1rem 0;
+  font-size: 16px;
+  color: #2d374b;
+}
+.collaborate-section .card-container .card .text .text-end {
+  color: #2460d8;
+}
+.collaborate-section .card-container .card .text-icons {
+  display: flex;
+  gap: 0.5rem;
+}
+.collaborate-section .card-container .card .text-icons h5 {
+  color: #2d374b;
+  font-size: 15px;
+  font-weight: 500;
+  color: #0abf53;
+}
+.collaborate-section .card-container .card .text-icons span {
+  color: #0abf53;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

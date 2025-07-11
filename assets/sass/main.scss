@@ -154,7 +154,6 @@ nav {
 
   .right-aria {
     flex-grow: 1;
-    text-align: end;
 
     .hero-section-image {
       width: 90%;
@@ -354,5 +353,182 @@ nav {
 }
 //Challenge Card Section End
 
-// 
+// All About Section Start
+.all-about-speed-section {
+margin-top: 6rem;
+  .about-section {
+    display: flex;
+    gap: 3rem;
+    .about-text {
+      width: 550px;
+      height: 380px;
+
+      h2 {
+        font-size: 36px;
+        color: #2d374b;
+      }
+      p {
+        font-size: 16px;
+        color: #2d374b;
+        padding: 1rem 0;
+      }
+      h4 {
+        font-size: 20px;
+        padding: 2rem 0;
+        color: #2d374b;
+        font-style: italic;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .avator-image {
+    display: flex;
+    gap: 1rem;
+    
+    h5 {
+      font-size: 16px;
+      padding: 0.3rem 0;
+      color: #2d374b;
+    }
+    span {
+      display: block;
+      font-size: .8125rem;
+      color: #677788;
+    }
+  }
+
+  .image {
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-size: cover;
+    }
+  }
+
+  .right-aria {
+    width: 100%;
+    height: 380px;
+    position: relative;
+
+    .line:after {
+      content: '';
+      width: 2px;
+      height: 380px;
+      background-color: #EAECEF;
+      position: absolute;
+      left: 50%;
+      right: 0;
+    }
+    .two-line:after {
+      content: '';
+      width: 550px;
+      height: 2px;
+      background-color: #EAECEF;
+      position: absolute;
+      left: 14%;
+      top: 50%;
+      right: 0;
+    }
+    
+    .four-items-box {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 2rem 0;
+    }
+
+    .items-box {
+      h2 {
+        font-size: 48px;
+        color: #2d374b;
+        color: #2d374b;
+      }
+      p {
+        padding: 1rem 0;
+        font-size: 16px;
+        line-height: 1.3rem;
+        color: #2d374b;
+      }
+    }
+  }
+}
+// All About Section End
+
+// Title Image Section Start
+.title-image-section {
+  padding: 6rem 0;
+  .title-image {
+    display: flex;
+    justify-content: space-evenly;
+
+    img {
+      width: 100px;
+    }
+  }
+}
+// Title Image Section End
+
+// Header Section Start
+  .header-section {
+    h2 {
+      font-size: 36px;
+      text-align: center;
+      color: #2d374b;
+    }
+    p {
+      font-size: 16px;
+      text-align: center;
+      padding: 1rem;
+      color: #2d374b;
+    }
+  }
+// Header Section End
+
+// Collaborate Section Start
+.collaborate-section {
+  padding: 2.5rem 0;
+  .card-container {
+
+    .card {
+      width: 360px;
+
+      img {
+        width: 100%;
+        border-radius: 20px;
+      }
+
+      .text {
+        padding: 1rem 0;
+        h2 {
+          color: #2d374b;
+        }
+        p {
+          padding: 1rem 0;
+          font-size: 16px;
+          color: #2d374b;
+        }
+        .text-end {
+          color: #2460d8;
+        }
+      }
+      .text-icons {
+        display: flex;
+        gap: 0.5rem;
+        h5 {
+          color: #2d374b;
+          font-size: 15px;
+          font-weight: 500;
+          color: #0abf53;
+        }
+        span {
+          color: #0abf53;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+// Collaborate Section End
+
 
