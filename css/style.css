@@ -421,6 +421,10 @@ nav .container .nav-container .button-group .btn-two:hover {
 .collaborate-section {
   padding: 2.5rem 0;
 }
+.collaborate-section .card-container {
+  display: flex;
+  justify-content: space-between;
+}
 .collaborate-section .card-container .card {
   width: 360px;
 }
@@ -455,6 +459,20 @@ nav .container .nav-container .button-group .btn-two:hover {
 .collaborate-section .card-container .card .text-icons span {
   color: #0abf53;
   font-size: 20px;
+}
+.collaborate-section .card-container .panting-card {
+  position: relative;
+}
+.collaborate-section .card-container .panting-card .sponsored {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.4rem;
+  background-color: #2D374B;
+  color: #fff;
+  font-size: 12px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

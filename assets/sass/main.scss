@@ -489,7 +489,8 @@ margin-top: 6rem;
 .collaborate-section {
   padding: 2.5rem 0;
   .card-container {
-
+    display: flex;
+    justify-content: space-between;
     .card {
       width: 360px;
 
@@ -525,6 +526,22 @@ margin-top: 6rem;
           color: #0abf53;
           font-size: 20px;
         }
+      }
+    }
+
+    .panting-card {
+      position: relative;
+
+      .sponsored {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0.4rem;
+        background-color: #2D374B;
+        color: #fff;
+        font-size: 12px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
       }
     }
   }
