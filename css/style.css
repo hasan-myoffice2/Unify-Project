@@ -475,4 +475,51 @@ nav .container .nav-container .button-group .btn-two:hover {
   border-bottom-left-radius: 10px;
 }
 
+.footer-section {
+  background-color: #2D374B;
+  padding: 5rem 0;
+  height: 600px;
+}
+.footer-section .header-button {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section .header-button h2 .thriving, .footer-section .header-button h2 .agency {
+  color: rgba(255, 255, 255, 0.7019607843);
+  font-size: 36px;
+}
+.footer-section .header-button h2 .unify {
+  color: #fff;
+  font-size: 36px;
+}
+.footer-section .button-group button {
+  padding: 18px 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.footer-section .button-group .request-demo {
+  background-color: #0abf53;
+  color: #fff;
+  font-weight: 550;
+  font-size: 15px;
+}
+.footer-section .button-group .request-demo:hover {
+  background-color: #09a247;
+  color: #fff;
+}
+.footer-section .button-group .sign-up {
+  padding: 18px 30px;
+  color: #fff;
+  font-weight: 550;
+  font-size: 15px;
+}
+.footer-section .button-group .sign-up span {
+  font-size: 15px;
+}
+.footer-section .button-group .sign-up:hover {
+  background-color: #677788;
+}
+
 /*# sourceMappingURL=style.css.map */

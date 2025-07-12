@@ -548,4 +548,62 @@ margin-top: 6rem;
 }
 // Collaborate Section End
 
+// Footer Section Start
+.footer-section {
+  background-color: #2D374B;
+  padding: 5rem 0;
+  height: 600px;
+  
+  .header-button {
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+      .thriving, .agency {
+        color: #ffffffb3;
+        font-size: 36px;
+      }
+      .unify {
+        color: #fff;
+        font-size: 36px;
+      }
+    }
+  }
+
+  .button-group {
+    button {
+      padding: 18px 30px;
+      border-radius: 5px;
+      border: none;
+      background-color: transparent;
+      outline: none;
+    }
+
+    .request-demo {
+      background-color: #0abf53;
+      color: #fff;
+      font-weight: 550;
+      font-size: 15px;
+    }
+    .request-demo:hover {
+      background-color: #09a247;
+      color: #fff;
+    }
+
+    .sign-up {
+      padding: 18px 30px;
+      color: #fff;
+      font-weight: 550;
+      font-size: 15px;
+      span {
+        font-size: 15px;
+      }
+    }
+    .sign-up:hover {
+      background-color: #677788;
+    }
+  }
+}
+// Footer Section End
+
 
